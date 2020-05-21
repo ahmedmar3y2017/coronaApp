@@ -1,0 +1,5 @@
+
+docker build -t ahmedmarey2018/corona .
+docker run -p 9000:9000 ahmedmarey2018/corona --server.port=9000
+docker tag d3c422a377a8 ahmedmarey2018/corona
+docker push ahmedmarey2018/corona:latest
